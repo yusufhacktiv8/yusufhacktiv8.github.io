@@ -29,9 +29,8 @@ header img {
 }
 
 header nav {
-  float: right;
+  float: left;
   top: 0;
-  margin-right: 30px;
 }
 
 header nav li {
@@ -41,6 +40,32 @@ header nav li {
   font-size: 0.8em;
   font-weight: bold;
   color: #000;
+}
+
+header nav li img {
+  display: inline;
+}
+
+.social-icons {
+  float: right;
+  margin-top: 12px;
+  margin-right: 20px;
+}
+
+.social-icons img {
+  margin: 5px;
+  width: 18px;
+  height: 18px;
+}
+
+.social-icons button {
+  border: 1px solid gray;
+  padding: 5px 20px;
+  border-radius: 25px;
+  margin-left: 15px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #444;
 }
 
 section {
@@ -56,7 +81,7 @@ section {
 .project-card {
   width: 270px;
   height: 300px;
-  margin: 10px;
+  margin: 12px;
   display: inline-block;
 }
 
