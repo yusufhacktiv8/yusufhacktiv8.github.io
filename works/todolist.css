@@ -1,0 +1,67 @@
+body {
+  font-family: arial;
+}
+.todo-app {
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  padding-bottom: 30px;
+  border: 1px solid silver;
+  border-radius: 8px;
+}
+
+.todo-app-title {
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+#new-todo-description {
+  width: 99%;
+  height: 25px;
+  margin: 10px auto;
+  font-size: 16px;
+}
+
+#todo-mark-all-button {
+  width: 120px;
+  height: 30px;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  background-color: #3B9C51;
+  border-radius: 5px;
+  color: white;
+  font-size: 12px;
+
+}
+
+.todo-item {
+  padding: 10px 5px;
+  border-bottom: 1px solid #F3F3F3;
+}
+
+.todo-item input[type="checkbox"] {
+  float: left;
+}
+
+.todo-item span {
+  margin-left: 10px;
+}
+
+.todo-item-mark {
+  text-decoration: line-through;
+  color: silver;
+}
+
+.todo-item input[type="image"] {
+  width: 12px;
+  height: 12px;
+  float: right;
+}
+
+.todo-item-move {
+  margin-left: 300px;
+  transition: 0.27s;
+}
